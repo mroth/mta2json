@@ -19,3 +19,5 @@ Set the following as environment variables:
     - Main feed is `0`, which we will use by default.
     - New feed with the L train is `2`.
   * `PORT` if you wish to override the default port we listen on (3000)
+
+`Dotenv.load()` is automatic so we'll source these from a standard `.env` file if it exists.
